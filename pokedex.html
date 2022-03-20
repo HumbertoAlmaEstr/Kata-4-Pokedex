@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <img  class="logo" src="./images/logo.png"  alt=""> 
+    <br>
+    <div>
+        <h1 class="elect">Que pokemon desea:</h1>
+        <div >
+            <input class="place" type="text" placeholder="pikachu" id="pokeName" name="pokeName">
+        </div>
+        <div >
+            <button  class="boton" onclick="fetchPokemon()">Cambiar Pokemon</button> 
+        </div>
+        
+        <br>
+        <img src="./images/pokedexplant.png" style="position: absolute;" width="100%" alt="">
+        <img class="pokebola" src="./images/pokebola.png" alt="Pokemon" id="pokeImg" width="20%"><br>
+        <div class="identif" id="identifi"></div>
+
+        <div class="cards"><br><br>
+            <div class="vida" id="hp"></div><br>
+            <div id="attack"></div><br>
+            <div  id="defense"></div><br>
+            <div id="specialAttack"></div><br>
+            <div id="specialDefense"></div><br>
+            <div id="speed"></div><br>
+            <hr class="line">
+            <div id="move1"></div><br>
+            <div id="move2"></div><br>
+            <div id="move3"></div><br>
+            <div id="move4"></div><br>
+            <div id="move5"></div>
+        </div>
+       
+
+        <div class="card">
+            <div class="nombre" id="name"></div>
+            <div id="type"></div>
+            <div id="type1"></div>
+        </div>
+        
+    </div>
+</body>
+<footer>
+    <script src="./javascript/Pokedex.js"></script>
+</footer>
+</html>

@@ -1,0 +1,327 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: #124b77;
+    font-family:  'Pokemon Solid', sans-serif;
+}
+
+.logo{
+    width: 40%;
+    margin-left: 32%;
+    position: relative;
+}
+
+.pokedex{
+    position: absolute;      
+}
+
+.place{
+    margin-top: 5%;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.pokebola{
+    position: relative;
+    margin-top: 15%;
+    margin-left: 15%;
+}
+
+.boton{
+    text-align: center;
+    margin-top: 2%;
+    font-size: x-large;
+    margin-left: 47%;
+}
+
+.place{
+    height: 40px;
+    margin-left: 40%;
+}
+
+.elect{
+    color: azure; 
+    margin-top: 5%; 
+    background-color: #005087; 
+    display: inline-block; 
+    margin-left: 2%;
+    font-size: 60px;
+}
+
+.cards{
+    background-color: rgb(255, 255, 255);
+    text-align: justify;
+    display: inline-block;
+    position: relative;
+    float: right;
+    margin-top: -25%;
+    margin-right: 5.5%;
+    font-size: xx-large;
+    height: 800px;
+    width: 40%;
+    border-radius: 5%;
+}
+
+.card{
+    background-color: rgb(255, 255, 255);
+    text-align: justify;
+    display: inline-block;
+    position: relative;
+    float: right;
+    margin-top: 18.5%;
+    margin-right: 9.5%;
+    font-size: xx-large;
+    width: 39.5%;
+    height: 150px;
+    border-radius: 5%;
+}
+
+.identif{
+    background-color: rgb(255, 255, 255);
+    text-align: justify;
+    display: inline-block;
+    position: relative;
+    float: left;
+    font-size: xx-large;
+    margin-top: 4%;
+    margin-left: 21%;
+    border-radius: 5%;
+}
+
+.nombre{
+    margin-top: 4%;
+}
+
+.vida{
+    margin-top: -10%;
+}
+
+.line{
+    
+    color: #860a0a;
+}
+
+
+@media screen and (min-width:780px) and (max-width:1024px) {
+    *{
+        padding: 0%;
+        margin: 0%;
+    }
+    
+    body{
+        background-color: #124b77;
+    }
+    
+    .logo{
+        margin-left: 28%;
+        width: 40%;
+        position: relative;
+    }
+    
+    .pokedex{
+        position: absolute;      
+    }
+    
+    .place{
+        margin-top: 5%;
+        text-align: center;
+    }
+    
+    .pokebola{
+        position: relative;
+        margin-top: 15%;
+        margin-left: 15%;
+    }
+    
+    .boton{
+        text-align: center;
+        margin-top: 2%;
+        height: 30px;
+    }
+
+    .elect{
+        color: azure; 
+        margin-top: 5%; 
+        background-color: #005087; 
+        display: inline-block; 
+        margin-left: 2%;
+        font-size: 50px;
+    }
+    
+    .cards{
+        background-color: aliceblue;
+        text-align: justify;
+        display: inline-block;
+        position: relative;
+        float: right;
+        margin-top: -25%;
+        margin-right: 5.5%;
+        font-size: xx-large;
+        height: 800px;
+        width: 40%;
+    }
+}
+
+@media screen and (min-width:480px) and (max-width:780px) {
+    *{
+        padding: 0%;
+        margin: 0%;
+    }
+    
+    body{
+        background-color: #124b77;
+    }
+    
+    .logo{
+        margin-left: 28%;
+        width: 40%;
+    }
+    
+    .pokedex{
+        position: absolute;      
+    }
+    
+    .place{
+        margin-top: 5%;
+        text-align: center;
+    }
+    
+    .pokebola{
+        position: relative;
+        margin-top: 15%;
+        margin-left: 15%;
+    }
+    
+    .boton{
+        text-align: center;
+        margin-top: 2%;
+        height: 30px;
+    }
+    
+    .cards{
+        background-color: aliceblue;
+        text-align: justify;
+        display: inline-block;
+        position: relative;
+        float: right;
+        
+        margin-right: 5.5%;
+        font-size: large;
+        height: 50px;
+        width: 10%;
+    }
+
+    .elect{
+        color: azure; 
+        margin-top: 5%; 
+        background-color: #005087; 
+        display: inline-block; 
+        margin-left: 2%;
+        font-size: 100px;
+    }
+
+}
+
+@media screen and (max-width:480px) {
+    *{
+        padding: 0%;
+        margin: 0%;
+    }
+    
+    body{
+        background-color: #124b77;
+        font-family:  'Pokemon Solid', sans-serif;
+    }
+    
+    .logo{
+        width: 40%;
+        margin-left: 32%;
+        position: relative;
+    }
+
+    .elect{
+        color: azure; 
+        margin-top: 5%; 
+        background-color: #005087; 
+        display: inline-block; 
+        margin-left: 2%;
+        font-size: 30px;
+    }
+    
+    .place{
+        margin-top: 5%;
+        margin-left: 10%;
+        text-align: center;
+        font-size: xx-large;
+    }
+
+    .boton{
+        text-align: center;
+        margin-top: 2%;
+        font-size: x-large;
+        margin-left: 32%;
+    }
+
+    .pokebola{
+        position: relative;
+        margin-top: 15%;
+        margin-left: 15%;
+    }
+    
+    .identif{
+        background-color: rgb(255, 255, 255);
+        text-align: justify;
+        display: inline-block;
+        margin-top: 1%;
+        font-size: 25px;
+        
+    }
+
+    .cards{
+        background-color: rgb(255, 255, 255);
+        text-align: justify;
+        display: inline-block;
+        position: relative;
+        margin-top: -25%;
+        margin-right: 5.5%;
+        font-size: 73.5%;
+        height: 280px;
+        width: 40%;
+        border-radius: 5%;  
+    }
+
+    .vida{
+        margin-top: -10%;
+    }
+
+    .line{
+        
+        color: #860a0a;
+    }
+
+    .card{
+        background-color: transparent;
+        text-align: justify;
+        display: inline-block;
+        position: relative;
+        float: right;
+        margin-top: 14.2%;
+        margin-right: 9%;
+        font-size: 15px;
+        width: 40%;
+        height: 60px;
+        border-radius: 5%;
+        
+    }
+    
+    .nombre{
+        margin-top: 4%;
+    }
+    
+    
+    
+    
+}
